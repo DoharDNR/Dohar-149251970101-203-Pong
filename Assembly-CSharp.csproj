@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F5719091-9380-7D8F-3DD0-8200653DE06E}</ProjectGuid>
+    <ProjectGuid>{35D83561-C74A-F77A-9193-6AEF86A2B794}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,10 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\BallController.cs" />
-    <Compile Include="Assets\Scenes\AreaPertandingan.cs" />
+    <Compile Include="Assets\Scenes\ScoreManager.cs" />
     <Compile Include="Assets\Scenes\PaddleController.cs" />
-    <Compile Include="Assets\Scenes\Gawang.cs" />
-    <Compile Include="Assets\Scenes\PowerUpSystem.cs" />
+    <Compile Include="Assets\Scenes\GoalController.cs" />
+    <Compile Include="Assets\Scenes\PUSpeedUpController.cs" />
+    <Compile Include="Assets\Scenes\MainMenuController.cs" />
+    <Compile Include="Assets\Scenes\ScoreController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

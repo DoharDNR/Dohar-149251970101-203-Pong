@@ -3,13 +3,23 @@ using UnityEngine;
 public class BallController : MonoBehaviour
 {
     public Vector2 speed;
-    private Rigidbody2D fisikObj;
+    public Vector2 resetPosition;
 
-    public void Mulai()
+    private Rigidbody2D rig;
+
+    void Start()
     {
-        fisikObj.velocity = speed;
+        rig = GetComponent<Rigidbody2D>();
+        rig.velocity = speed;
+    }
 
-        Debug.Log("Created By DoharSiregar - 149251970101-203");
-        Debug.Log("Kecepatan kedua Paddle Sekarang Sebesar ");
+    public void ResetBall()
+    {
+        transform.position = new Vector3(resetPosition.x, resetPosition.y, 0);
+    }
+
+    public void ActivatePUSpeedUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
     }
 }
