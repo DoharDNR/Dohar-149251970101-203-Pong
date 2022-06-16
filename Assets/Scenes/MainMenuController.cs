@@ -11,6 +11,7 @@ public class MainMenuController : MonoBehaviour
 
     public void OpenAuthor()
     {
+        SceneManager.LoadScene("CreditScene");
         Debug.Log("Created By DoharSiregar - 149251970101-203");
     }
 }

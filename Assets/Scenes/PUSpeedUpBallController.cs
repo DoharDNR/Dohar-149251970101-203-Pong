@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PUSpeedUpController : MonoBehaviour
+public class PUSpeedUpBallController : MonoBehaviour
 {
     public PowerUpManager manager;
     public Collider2D ball;
